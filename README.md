@@ -91,9 +91,8 @@ These filters allow users to explore different patient segments and compare the 
 Healthcare-Analytics-Dashboard/
 │
 ├── README.md
-├── Healthcare_Dashboard.pbix
-├── healthcare_dataset.csv
-└── dashboard_screenshot.png
+├── Patient_History_data.xlsx
+└── Health Care Analytics.png
 ```
 
 *Update the filenames to match the files you actually upload. Include the dataset only if you have permission to redistribute it.*
