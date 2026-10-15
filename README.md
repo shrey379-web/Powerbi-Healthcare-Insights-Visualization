@@ -2,6 +2,12 @@
 
 An interactive healthcare analytics dashboard built using Microsoft Power BI to explore patient demographics, health-risk categories, lifestyle indicators, and health conditions through data visualization.
 
+## 📊 Dashboard Preview
+
+![Healthcare Analytics Dashboard](Health%20Care%20Analytics.png)
+
+*Dashboard preview featuring patient KPIs, heart attack and stroke indicators, age-group health risks, health status distribution, demographic analysis, and gender-wise overweight comparisons.*
+
 
 ## 📌 Project Overview
 
