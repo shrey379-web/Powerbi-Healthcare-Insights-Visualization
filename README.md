@@ -124,7 +124,7 @@ This project strengthened my ability to transform structured healthcare data int
 
 **Shrey Gandhi**
 
-Computer Science Engineer | AI/ML & Data Analytics Enthusiast | Power BI | MBA in IT Management
+Computer Science Engineer | AI/ML & Data Analytics Enthusiast | Power BI |
 
 ---
 
