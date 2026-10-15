@@ -1,55 +1,136 @@
-# 🏥Healthcare-insights-visualization - PowerBi
-"Interactive Power BI dashboard for analyzing healthcare data, patient demographics, and health risk trends."
+# 🏥 Healthcare Analytics Dashboard | Power BI
 
-📌 Project Overview
-This project is an interactive Power BI dashboard designed to analyze healthcare data and provide actionable insights.
-It focuses on understanding patient demographics, identifying high-risk groups, and supporting data-driven healthcare decisions.
+An interactive healthcare analytics dashboard built using Microsoft Power BI to explore patient demographics, health-risk categories, lifestyle indicators, and health conditions through data visualization.
 
-The dataset includes 5,191 patient records with detailed health, lifestyle, and demographic attributes.
-Through advanced DAX measures and clean dashboard design, this project highlights key health indicators and risk patterns.
+## 📊 Dashboard Preview
 
-🔍 Key Features
-👥 Total Patients Analyzed: 5,191
+![Healthcare Analytics Dashboard](dashboard_screenshot.png)
 
-❤️ Health Insights: Heart attack and stroke occurrence rates
+*Dashboard preview showing patient KPIs, heart attack and stroke indicators, age-group risk distribution, health categories, race-wise overweight distribution, and gender-based comparisons.*
 
-🚬 Lifestyle Risk Analysis: Smoking habits breakdown
+## 📌 Project Overview
 
-📈 Risk Segmentation: Analysis by age groups
+This project focuses on analyzing **5,191 patient records** to explore demographic patterns, health-risk classifications, and lifestyle-related indicators.
 
-🌍 Demographics: Race, gender, and weight category distribution
+The dashboard transforms healthcare data into an interactive visual report, enabling users to examine patient distributions, compare health indicators, and explore patterns across different age groups, genders, and demographic categories.
 
-✅ Health Status Overview: From “Good” to “Critical” health conditions
+## 🎯 Project Objectives
 
-🌟 Interactive Filters: Gender, health risk, and age group
+- Analyze patient demographics and health indicators.
+- Explore heart attack and stroke occurrence patterns.
+- Examine health-risk distributions across age groups.
+- Investigate smoking-related risk indicators and overweight categories.
+- Compare health conditions across gender and racial groups.
+- Build an interactive dashboard for exploratory healthcare analysis.
 
-📊 Tools & Skills Used
-Power BI – Data visualization & dashboard design
+## 🔍 Key Metrics & Dashboard Features
 
-DAX – Custom calculations and measures
+### 📈 Key Performance Indicators (KPIs)
 
-Data Cleaning & Transformation – Power Query
+- **Total Patients:** 5,191
+- **Females Not Overweight:** 1,409
+- **Smoking / High Health Risk Indicator:** 37
+- **High & Moderate Health Risk with Less Than 30 Minutes:** 859
 
-Data Analytics – Identifying trends and risk factors
+### ❤️ 1. Heart Attack & Stroke Analysis
 
-🎯 Insights Derived
-Clear identification of high-risk patient groups based on age and lifestyle habits.
+- Visualizes the distribution of patients by heart attack status.
+- Compares patients with and without recorded stroke indicators.
+- Displays the proportion of each category within the dataset.
 
-Demographic trends showing variation in health conditions across gender and race.
+### 👥 2. Age-Group Health Risk Analysis
 
-Lifestyle habits such as smoking prevalence linked to increased risk factors.
+- Compares health-risk counts across age groups.
+- Highlights the distribution among age categories such as 40–49, 50–59, 60–69, 70+, and below 40.
+- Helps identify groups with higher recorded health-risk counts.
 
-📷 Dashboard Preview
-(Add a screenshot here after uploading your dashboard image to the repo)
+### 🚬 3. Health-Risk Distribution
 
-📂 Project Structure
-📁 Healthcare-Analytics-Dashboard
+- Examines categories such as Normal, Moderate High, High, and Critical.
+- Supports comparison of patient counts across risk classifications.
+- Includes an NA category for records with missing or unavailable classifications.
+
+### 🩺 4. Health Status Analysis
+
+- Visualizes patient counts across health categories, including Good, Very Good, Not Good, and Poor.
+- Enables exploration of the overall distribution of reported health status.
+
+### 🌍 5. Demographic & Overweight Analysis
+
+- Compares overweight-related records across racial categories, including Chinese, Malay, Indian, and Others.
+- Uses a treemap to compare overweight and non-overweight categories across female and male patients.
+- Supports demographic exploration of weight-related indicators.
+
+### 🎛️ 6. Interactive Filtering
+
+The dashboard includes interactive filters for:
+
+- Gender: Female and Male
+- Health Risk
+- Age Group
+
+These filters allow users to explore different patient segments and compare the displayed metrics.
+
+## 🛠️ Tools & Technologies
+
+- **Microsoft Power BI** — Dashboard creation and interactive visualizations
+- **Power Query** — Data cleaning and transformation
+- **DAX** — Measures and KPI calculations
+- **Data Modeling** — Structuring data for analysis
+- **Data Analytics** — Exploring demographic distributions and health indicators
+- **Data Visualization** — KPI cards, donut charts, bar charts, area charts, and treemaps
+
+## 💡 Key Analytical Takeaways
+
+- The dashboard provides an overview of health-risk counts across age groups.
+- Heart attack and stroke indicators can be compared across recorded patient categories.
+- Gender-based comparisons reveal the distribution of overweight and non-overweight records.
+- Health-status and risk-category visuals make it easier to explore the dataset's overall composition.
+- Interactive filters support focused analysis of specific demographic segments.
+
+*These observations describe patterns in the available dataset and should not be interpreted as proof of causation or as clinical conclusions.*
+
+## 📂 Repository Structure
+
+```text
+Healthcare-Analytics-Dashboard/
 │
+├── README.md
+├── Healthcare_Dashboard.pbix
+├── healthcare_dataset.csv
+└── dashboard_screenshot.png
+```
 
-├── 📄 README.md              # Project documentation
+*Update the filenames to match the files you actually upload. Include the dataset only if you have permission to redistribute it.*
 
-├── 📄 Healthcare_Dashboard.pbix   # Power BI dashboard file
+## 🚀 How to Explore the Dashboard
 
-├── 📄 healthcare_dataset.csv  # Dataset used for the dashboard
+1. Clone or download this repository.
+2. Install Microsoft Power BI Desktop.
+3. Open `Healthcare_Dashboard.pbix`.
+4. Explore the dashboard visuals and interactive filters.
+5. Compare patient distributions across age groups, gender, health status, and risk categories.
 
-└── 📄 dashboard_screenshot.png # Dashboard preview image
+## 📚 Skills Demonstrated
+
+- Data cleaning and transformation
+- DAX measures and KPI development
+- Interactive dashboard design
+- Exploratory data analysis
+- Demographic segmentation
+- Healthcare data visualization
+- Analytical thinking and data storytelling
+
+## 🎯 Project Takeaway
+
+This project strengthened my ability to transform structured healthcare data into meaningful visual insights. It demonstrates how Power BI can support exploratory analysis, highlight patterns in patient records, and communicate complex information through an interactive dashboard.
+
+## 👨‍💻 Author
+
+**Shrey Gandhi**
+
+Computer Science Engineer | AI/ML & Data Analytics Enthusiast | Power BI | MBA in IT Management
+
+---
+
+⭐ If you find this project useful, feel free to explore the repository and share your feedback.
